@@ -238,3 +238,98 @@ main li{
     top: -30px;
     width: 120px;
 }
+
+footer{
+    background-image: url(../img/background_footer.png);
+
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    width: 100%;
+    padding-bottom: 20px;   
+    
+}
+
+.div_dicas{
+    display: flex;
+
+    position: relative;
+    top: -30px;
+    margin-bottom: 50px;
+
+    width: 800px;
+    padding: 0 50px;
+
+    background: rgba(255, 255, 255, 0.01);
+    border: 1px solid #FFFFFF;
+    box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(7.5px);
+    border-radius: 60px;
+
+    font-family: var(--font2);
+    font-size: 30px;
+    color: var(--branco);
+    text-align: center;
+    font-weight: 600;
+}
+
+.div_dicas img{
+    width: 280px;
+    height: 350px;
+    position: relative;
+    top: -80px;
+}
+
+.div_dicas p{
+    margin: 30px 0;
+}
+.div_dicas a{
+    color: var(--azulC);
+}
+
+.btn_saiba{
+    background: var(--branco);
+    border-radius: 30%;
+    padding: 11px 50px;
+}
+
+.footerPt2{
+    display: flex;
+    width: 1400px;
+    justify-content: space-evenly;
+    color: var(--branco);
+}
+
+
+.footerPt2 span{
+    font-family: var(--font1);
+    font-size: 22px;
+}
+
+
+.footerPt2 li{
+    font-family: var(--font2);
+}
+
+.footerPt2 ul{
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.sociais{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 25px 30px 25px 0;
+
+}
+
+.sociais img{
+    width: 50px;
+    height: 50px;
+}
+
+.footerPt2 p{
+    font-family: var(--font2);
+    font-size: 16px;
+}
